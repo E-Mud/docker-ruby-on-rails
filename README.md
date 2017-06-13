@@ -2,10 +2,10 @@
 
 This is a very basic base image for Rails applications.
 
-It can also be used as a dockerized rails cli (`rails` is set as the entrypoint). For example by running:
+It can also be used as a dockerized rails cli. For example by running:
 
 ```
-docker run --rm -w /app --v $PWD:/app emud/ruby-on-rails new MyApp
+docker run --rm -w /app --v $PWD:/app emud/ruby-on-rails rails new MyApp
 ```
  If you're gonna do that frequently, consider creating an alias for it.
 

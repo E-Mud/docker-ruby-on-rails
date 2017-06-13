@@ -10,5 +10,3 @@ RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.s
     && nvm use --lts
 
 RUN gem install rails -v 5
-
-ENTRYPOINT ["rails"]
